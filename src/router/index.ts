@@ -8,6 +8,6 @@ const router = express.Router();
 export default (): express.Router => {
     authentication(router);
     events(router);
-    
+
     return router;
 };
